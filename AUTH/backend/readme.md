@@ -7,7 +7,6 @@ This project provides authentication components for backend services. It is desi
 - User registration and login
 - Session-based authentication
 - Password hashing
-- Role-based access control
 - API endpoints for authentication
 
 ## Technologies Used
@@ -21,7 +20,7 @@ This project provides authentication components for backend services. It is desi
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/Swastik2740S/Backend_components.git>
     ```
 2. Install dependencies:
     ```bash
@@ -30,7 +29,9 @@ This project provides authentication components for backend services. It is desi
 3. Configure environment variables in `.env`:
     ```
     MONGO_URI=<your-mongodb-uri>
-    JWT_SECRET=<your-jwt-secret>
+    PORT = <port number>
+    session = <sesion secret key>
+    
     ```
 4. Start the server:
     ```bash
@@ -41,9 +42,8 @@ This project provides authentication components for backend services. It is desi
 
 | Method | Endpoint         | Description           |
 |--------|-----------------|----------------------|
-| POST   | /register       | Register new user    |
-| POST   | /login          | User login           |
-| GET    | /profile        | Get user profile     |
+| POST   | /api/user       | create new user      |
+| POST   | /api/auth/login | User login           |
 
 ## License
 
