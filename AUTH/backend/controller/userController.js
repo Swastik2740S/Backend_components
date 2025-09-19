@@ -19,7 +19,8 @@ async function createUser(req,res) {
         const hashedpass = await bcrypt.hash(password,10); //password is hashed here by using bcrypt
         const create = new User({username,email,password:hashedpass}); //create the user here which we took in the req.body
         create.save();
-        return res.status(201).json({message : "User Created succesfully",User : {  //send the created message and show the username and email only
+        return res.status(201).json({message : "User Created succesfully",User : {
+            //send the created message and show the username and email only
             username : create.username,
             email : create.email
         }});

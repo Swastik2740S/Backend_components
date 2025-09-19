@@ -6,12 +6,11 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 
 ## Features
 
-- ✅ User registration & login
-- ✅ Session-based authentication (using express-session)
-- ✅ Secure password hashing with bcrypt
-- ✅ Middleware to protect routes
-- ✅ Modular project structure
-- ✅API endpoints for authentication
+- User registration and login
+- Session-based authentication
+- Password hashing
+- Role-based access control
+- API endpoints for authentication
 
 ## 🛠️Technologies Used
 
@@ -53,33 +52,9 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 
 | Method | Endpoint         | Description           |
 |--------|-----------------|----------------------|
-| POST   | /api/user       | create new user      |
-| POST   | /api/auth/login | User login           |
-
-
-# 📡 API Endpoints
-
-- 🔹 Login
-POST /api/auth/login
-{
-  "email": "john@example.com",
-  "password": "password123"
-}
-
-- 🔹 Register a new user
-POST /api/user
-{
-  "username": "john_doe",
-  "email": "john@example.com",
-  "password": "password123"
-}
-
-# 📚 Learning Goals
-- By exploring this project, you’ll learn:
-- The difference between session-based and token-based (JWT) authentication
-- How to secure passwords using bcrypt
-- How to use express-session for managing user sessions
-- How cookies work in authentication
+| POST   | /register       | Register new user    |
+| POST   | /login          | User login           |
+| GET    | /profile        | Get user profile     |
 
 ## License
 
