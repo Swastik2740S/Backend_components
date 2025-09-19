@@ -1,0 +1,21 @@
+{
+  "name": "auth_backend",
+  "version": "1.0.0",
+  "description": "Implementing the session based auth",
+  "license": "MIT",
+  "author": "Swastik verma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  }
+}
