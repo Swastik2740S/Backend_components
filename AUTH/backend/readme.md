@@ -26,6 +26,7 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 - A session ID is sent back to the client inside a cookie.
 - On each request, the cookie is checked → if valid, the user stays logged in.
 - On logout, the session is destroyed and the cookie becomes invalid.
+Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
 
 ## Getting Started
 
@@ -80,7 +81,6 @@ POST /api/user
 - How to secure passwords using bcrypt
 - How to use express-session for managing user sessions
 - How cookies work in authentication
-- Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
 
 ## License
 
