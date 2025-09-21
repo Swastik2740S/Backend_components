@@ -1,4 +1,3 @@
-![HaikuReadme](https://chinmay29hub-haiku-readme.vercel.app/api?theme=dark&type=vertical&border=true&font=Indie+Flower&t=1758481489596)
 # 🔐 Backend Authentication & Components Learning Series
 
 ## 👋 Welcome
