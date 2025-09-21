@@ -76,10 +76,11 @@ POST /api/user
 
 # 📚 Learning Goals
 - By exploring this project, you’ll learn:
-- The difference between session-based and token-based (JWT) authentication
+- The difference between session-based authentication
 - How to secure passwords using bcrypt
 - How to use express-session for managing user sessions
 - How cookies work in authentication
+- Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
 
 ## License
 
