@@ -30,7 +30,7 @@ Each folder in this repo focuses on **one concept** with **code examples + expla
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Swastik2740S/Backend_components.git
 
 2. Navigate to any module (e.g., JWT auth):
    ```bash
