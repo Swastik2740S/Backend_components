@@ -1,4 +1,4 @@
-# 🔐 Backend Authentication & Components Learning Series
+# 🔐 Backend Components Learning Series
 
 ## 👋 Welcome
 This repository is part of my **self-learning series** where I explore and explain different backend technologies and authentication methods.  
