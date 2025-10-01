@@ -22,8 +22,8 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 
 # ⚙️ How Session Auth Works
 - User logs in with email & password.
-- Server verifies the credentials and stores user info in a session (saved in memory or DB).
-- A session ID is sent back to the client inside a cookie.
+- Server verifies the credentials and stores user info in a session (saved in browser or in postman/thunderclient cookie jar).
+- A session ID is stored inside the browser client inside a cookie.
 - On each request, the cookie is checked → if valid, the user stays logged in.
 - On logout, the session is destroyed and the cookie becomes invalid.
 # Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
@@ -52,10 +52,11 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 
 ## API Endpoints
 
-| Method | Endpoint         | Description           |
+| Method | Endpoint        | Description          |
 |--------|-----------------|----------------------|
 | POST   | /api/user       | create new user      |
 | POST   | /api/auth/login | User login           |
+| GET    | /api/user       | Get all user         |
 
 
 # 📡 API Endpoints
@@ -75,9 +76,16 @@ POST /api/user
   "password": "password123"
 }
 
+- 🔹 Get All (This endpoint contains the session auth without the session id you cant get all users)
+GET /api/user
+{
+  "email": "test4gmail.com",
+  "password": "test4123"
+}
+
 # 📚 Learning Goals
 - By exploring this project, you’ll learn:
-- The difference between session-based authentication
+- The Client Based Session authentication
 - How to secure passwords using bcrypt
 - How to use express-session for managing user sessions
 - How cookies work in authentication

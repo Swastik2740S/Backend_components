@@ -30,4 +30,19 @@ async function createUser(req,res) {
     }
 }
 
-module.exports = {createUser};
+async function getUser(req, res) {
+  try {
+    const users = await User.find({},"username email"); 
+    return res.status(200).json({
+      message: "All users",
+      data: users
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: "Internal server error" });
+  }
+}
+
+
+
+module.exports = {createUser , getUser};

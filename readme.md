@@ -10,7 +10,7 @@ The idea is simple: instead of jumping straight into a big project, I break down
 ## 📚 What You’ll Find Here
 Each folder in this repo focuses on **one concept** with **code examples + explanation**:
 
-- **Session-Based Authentication** → Storing user sessions with `express-session`  
+- **Session-Based Authentication** → Storing user sessions with `express-session` (Implemented)
 - **JWT (JSON Web Tokens)** → Stateless authentication with signed tokens  
 - **Redis Integration** → Using Redis for caching and session management  
 - **Docker Setup** → Containerizing backend services for easy development  
