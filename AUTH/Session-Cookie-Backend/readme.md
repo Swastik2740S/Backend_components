@@ -31,6 +31,11 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 # Flowchart for better understanding
 <img width="2090" height="1102" alt="5378701c-1eab-41dd-92c6-41d3bbbad7f9" src="https://github.com/user-attachments/assets/6189d9c2-06b8-437b-9b2d-d49923370137" />
 
+# Cookies stored in browser : 
+<img width="1136" height="664" alt="Screenshot 2025-10-01 151620" src="https://github.com/user-attachments/assets/10ebb539-2d7b-4f09-b3e1-37c6371b1ef6" />
+
+# GET Request Via browser : 
+<img width="1131" height="837" alt="Screenshot 2025-10-01 151723" src="https://github.com/user-attachments/assets/10a07fb9-2157-422b-9113-684a9270eb54" />
 
 ## Getting Started
 
