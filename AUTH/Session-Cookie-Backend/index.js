@@ -10,7 +10,7 @@ app.use(express.json()); //to take the form data in the json format
 mongoconnect();
 
 app.use(  //using session to pass on the session as a cookie from server side.
-    //By using this client will not get any token this is server side-session which is moree secure
+    //By using this ,client will not get any token ,this is server side-session which is moree secure
   session({
     secret: process.env.session, 
     resave: false,
