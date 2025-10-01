@@ -26,7 +26,7 @@ It’s built to be modular, secure, and beginner-friendly, making it easy to lea
 - A session ID is stored inside the browser client inside a cookie.
 - On each request, the cookie is checked → if valid, the user stays logged in.
 - On logout, the session is destroyed and the cookie becomes invalid.
-# Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
+- Note: In the postman/thunderclient cookies are stored once per request so you have to enable cookie jar to request furthur routes.
 
 # Flowchart for better understanding
 <img width="2090" height="1102" alt="5378701c-1eab-41dd-92c6-41d3bbbad7f9" src="https://github.com/user-attachments/assets/6189d9c2-06b8-437b-9b2d-d49923370137" />
